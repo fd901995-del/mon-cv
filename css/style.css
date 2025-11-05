@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+.div1{
+    width: 45vh;
+    height: 150vh;
+    /* background-color:blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.partie1{
+    height: 300px;
+    width: 300px;
+    background-color:white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+.partie2{
+    height:400px;
+    background-color: white;
+}
+/* @media screen and (max-width: 768px){
+    .fat{
+        flex-direction: column;
+    }Z
+    .div1,.div2{
+        width: 100%;
+    }
+}
+     */
+
+h2{
+    background-color: rgba(28, 53, 104, 0.704);
+    width: 260px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: white;  
+}
+p{
+    font-size: large;
+    margin-left: 20px;
+}
+.partie3{
+    height:400px;
+    background-color: white;
+}
+.partie4{
+    height:400px;
+    background-color: white;
+}
+.partie5{
+    height:400px;
+    background-color: white;
+}
+.div2{
+    width: 70vh;
+    height: 150vh;
+    /* background-color:blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section1{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+    position: inherit;
+}
+
+.section2{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.section3{
+    width: 100%;
+    height: 400px;
+    background-color:white;
+}
+.section4{
+    width: 100%;
+    height: 400px;
+    background-color:white;
+}
+.milieu{
+    width: 2%;
+    background-color: rgba(28, 53, 104, 0.704);
+    height: 10vh;
+}
+strong{
+    color:rgba(28, 53, 104, 0.704);
+    font-size: 25px;
+}
+ul{
+    text-decoration:none;
+    font-size: 20px;
+     list-style: none;
+
+}
+/* li{
+    text-decoration: none;
+     list-style: none;
+} */
+h3{
+    color:rgba(28, 53, 104, 0.704);
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+h1{
+    color: rgba(28, 53, 104, 0.704);
+}
+.fat{
+    display: flex;
+    width: 115vh;
+    height: 200vh;
+    margin: 100px;
+    
+
+}

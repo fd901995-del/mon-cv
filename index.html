@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="../css/style.css">
+     <link rel="stylesheet" href="./style.css">
      <meta name="viewport"content="width=device-width,initial-scale=1.0">
+     
     <title>MON CV</title>
 </head>
 <body>
     <div class="fat">
     <div class="div1">
-        <div class="partie1"><img src="./images/ma photo.jpg" alt=""></div>
+        <div class="partie1"><img src="./image/ma photo.jpg " alt=""></div>
         <div class="partie2">
             <h2>A propos</h2>
             <p>Jeune développeuse passionnée par la création de sites web. Motivée, curieuse et toujours prête à apprendre de nouvelles technologies. Je cherche un poste pour débuter ma carrière dans le développement web.</p>
@@ -123,6 +124,31 @@
 <h2>Centre d 'interet</h2>
 <p>Photographie, Lecture, Voyages, Sport (natation), Nouvelles technologies.
 </p> -->
+
+<script>
+// On récupère l'élément qui contient ton nom
+const element = document.querySelector("h1");
+
+// On garde le texte original
+const text = element.textContent;
+
+// On vide le texte pour recommencer
+element.textContent = "";
+
+let i = 0;
+
+// Fonction pour afficher lettre par lettre
+function showLetters() {
+  if (i < text.length) {
+    element.textContent += text.charAt(i);
+    i++;
+    setTimeout(showLetters, 120); // vitesse animation
+  }
+}
+
+// on lance l'animation
+showLetters();
+</script>
 
 </body>
 </html>
